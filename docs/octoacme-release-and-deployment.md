@@ -21,13 +21,15 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - [ ] Deploy to staging and run smoke tests
 - [ ] Deploy to production (automated pipeline preferred)
 - [ ] Run post-deploy verifications
-- [ ] Announce release to stakeholders and support
+- [ ] Announce release to stakeholders and support — **Release comms owner: Project Manager; support readiness owner: Support Engineer**
 
 ## Rollback & Incident Playbook
 - If a deployment fails or causes a critical issue:
-  - Trigger incident response and notify on-call
+  - **Incident response lead**: on-call Developer; **User comms lead**: Support Engineer; **Stakeholder comms lead**: Project Manager
   - Rollback to last known-good release if necessary
   - Triage root cause and capture action items
+
+> See [Roles Interaction Cheatsheet](./octoacme-roles-interaction-cheatsheet.md) for incident escalation path and release planning ceremony ownership.
 
 ## Release Notes Template
 - Release name / number:

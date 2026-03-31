@@ -29,12 +29,15 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
+- Level 1: Team-level triage in daily standup (Scrum Master + Developers)
 - Level 2: PM escalates to Product Lead and dependent teams
 - Level 3: Sponsor-level escalation for business-impacting issues
+
+> See [Roles Interaction Cheatsheet](./octoacme-roles-interaction-cheatsheet.md) for the full escalation path and ceremony ownership reference.
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Role assignments confirmed — see [RACI / Ownership Summary](./octoacme-roles-and-personas.md#raci--ownership-summary)
